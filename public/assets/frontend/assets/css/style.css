@@ -1,0 +1,159 @@
+.notify{
+    z-index: 10000;
+    height: 50px!important;
+}
+.cart_image{
+    height: 150px!important;
+    width: 100%;
+    object-fit: contain;
+}
+.main-navbar {
+    border-bottom: 1px solid #ccc;
+}
+
+.main-navbar .top-navbar {
+    background-color: #2874f0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.main-navbar .top-navbar .brand-name {
+    color: #fff;
+}
+
+.main-navbar .top-navbar .nav-link {
+    color: #fff;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+.main-navbar .top-navbar .dropdown-menu {
+    padding: 0px 0px;
+    border-radius: 0px;
+}
+
+.main-navbar .top-navbar .dropdown-menu .dropdown-item {
+    padding: 8px 16px;
+    border-bottom: 1px solid #ccc;
+    font-size: 14px;
+}
+
+.main-navbar .top-navbar .dropdown-menu .dropdown-item i {
+    width: 20px;
+    text-align: center;
+    color: #2874f0;
+    font-size: 14px;
+}
+
+.main-navbar .navbar {
+    padding: 0px;
+    background-color: #ddd;
+}
+
+.main-navbar .navbar .nav-item .nav-link {
+    padding: 8px 20px;
+    color: #000;
+    font-size: 15px;
+}
+
+@media only screen and (max-width: 600px) {
+    .main-navbar .top-navbar .nav-link {
+        font-size: 12px;
+        padding: 8px 10px;
+    }
+}
+
+/* Set max-width for the card container at different breakpoints */
+@media (max-width: 576px) {
+    .col-12 {
+        max-width: 100%;
+        /* Set your max-width value for xs screens */
+        .responsive-image{
+           max-width: 100%!important;
+            object-fit:contain;
+            padding:20px;
+        }
+    }
+}
+
+@media (min-width: 576px) {
+    .col-sm-6 {
+        max-width: 100%;
+        /* Set your max-width value for sm screens and above */
+    }
+}
+
+@media (min-width: 768px) {
+    .col-md-4 {
+        max-width: 100%;
+        /* Set your max-width value for md screens and above */
+    }
+}
+
+@media (min-width: 992px) {
+    .col-lg-4 {
+        max-width: 100%;
+        /* Set your max-width value for lg screens and above */
+    }
+}
+
+@media (min-width: 1200px) {
+    .col-xl-2 {
+        max-width: 100%;
+        /* Set your max-width value for xl screens and above */
+    }
+}
+.responsive-image{
+   width:100%  !important;
+    height:300px !important;
+}
+/* .carousel{
+   /* max-height:min-content;
+} */
+.carousel-image{
+   width:100%!important;
+   height:calc(100vh - 70px - 45px)!important;
+   /* object-fit: contain; */
+   object-fit: cover;
+
+}
+
+/* about---------------------------------------------------- */
+.about_section .row {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.about_section .img-box {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.about_section .img-box img {
+    width: 100%;
+    max-width: 445px;
+    position: relative;
+    z-index: 2;
+}
+
+.about_section .detail-box p {
+    margin-top: 15px;
+}
+
+.about_section .detail-box a {
+    display: inline-block;
+    padding: 10px 45px;
+    background-color: #ffbe33;
+    color: #ffffff;
+    border-radius: 45px;
+    -webkit-transition: all 0.3s;
+    transition: all 0.3s;
+    border: none;
+    margin-top: 15px;
+}
