@@ -32,7 +32,7 @@ Bhansha is a resturant management system. In, bhansha we can get all the food it
 - Node.js & npm
 - MySQL
 
-## Steps / Configuration
+## Configuration
 1. **Clone the repository:**
    ```bash
    git clone https://github.com/Darshan-KC/bhansha.git
@@ -60,7 +60,7 @@ Bhansha is a resturant management system. In, bhansha we can get all the food it
     ```bash
     php artisan serve
     ```
-## Uses
+## Usage
 - **Access the application**: Open your browser and navigate to http://localhost:8000 to access Bhansha.
 - **Admin Panel**: Use the admin panel to manage food items and view orders.
 - **User Interface**: Users can browse food items, place orders, and make payments using eSewa.
